@@ -1,0 +1,11 @@
+framework module OnScreenConsole {
+  umbrella header "OnScreenConsole.h"
+
+  export *
+  module * { export * }
+}
+
+module OnScreenConsole.Swift {
+    header "OnScreenConsole-Swift.h"
+    requires objc
+}

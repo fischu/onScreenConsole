@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7369FA8D22186788000C1825 /* OnScreenConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 7369FA8B22186788000C1825 /* OnScreenConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7369FA9422186819000C1825 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7369FA9322186819000C1825 /* Console.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7369FA8822186788000C1825 /* OnScreenConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnScreenConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7369FA8B22186788000C1825 /* OnScreenConsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnScreenConsole.h; sourceTree = "<group>"; };
 		7369FA8C22186788000C1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7369FA9322186819000C1825 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				7369FA8B22186788000C1825 /* OnScreenConsole.h */,
+				7369FA9322186819000C1825 /* Console.swift */,
 				7369FA8C22186788000C1825 /* Info.plist */,
 			);
 			path = OnScreenConsole;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					7369FA8722186788000C1825 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7369FA9422186819000C1825 /* Console.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		7369FA9122186788000C1825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -275,9 +281,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mf.onScreenConsole.OnScreenConsole;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mf.onScreenConsole;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		7369FA9222186788000C1825 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -300,7 +308,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mf.onScreenConsole.OnScreenConsole;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mf.onScreenConsole;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
