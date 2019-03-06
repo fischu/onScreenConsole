@@ -3,7 +3,7 @@
 # onScreenConsole
 A debugging console directly on the app's screen. There were times during development of certain apps when I couldn't use Xcode's debugger console so an on screen one made perfect sense.
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-red.svg)](LICENSE) ![Swift](https://img.shields.io/badge/Swift-4.2-yellow.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-lightgray.svg)](LICENSE) ![Swift](https://img.shields.io/badge/Language-Swift_4.2-yellow.svg)![Platform](https://img.shields.io/badge/Platform-iOS-blue.svg)
 
 ## Setup
 ### Compatibility
