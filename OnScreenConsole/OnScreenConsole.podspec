@@ -8,7 +8,7 @@ s.summary = "OnScreenConsole - a debugging console directly on the app's screen.
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "1.0"
 
 # 3
 s.license = { :type => "Apache", :file => "LICENSE" }
