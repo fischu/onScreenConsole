@@ -1,0 +1,7 @@
+# platform :ios, '9.0'
+
+target 'OnScreenConsole' do
+  use_frameworks!
+  # Pods for OnScreenConsole
+
+end
