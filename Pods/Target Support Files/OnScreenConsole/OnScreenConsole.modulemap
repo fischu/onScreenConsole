@@ -1,0 +1,6 @@
+framework module OnScreenConsole {
+  umbrella header "OnScreenConsole-umbrella.h"
+
+  export *
+  module * { export * }
+}

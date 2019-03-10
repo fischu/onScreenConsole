@@ -1,0 +1,6 @@
+framework module Pods_OnScreenConsoleDemo {
+  umbrella header "Pods-OnScreenConsoleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

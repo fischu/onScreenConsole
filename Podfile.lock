@@ -1,0 +1,16 @@
+PODS:
+  - OnScreenConsole (1.0)
+
+DEPENDENCIES:
+  - OnScreenConsole
+
+SPEC REPOS:
+  https://github.com/fischu/MFPodSpecs.git:
+    - OnScreenConsole
+
+SPEC CHECKSUMS:
+  OnScreenConsole: 8a961f3a10fd1a695e4fbbcf829801c2e351008e
+
+PODFILE CHECKSUM: 45d6cbfd2631c20182456e2f3a6e1dd6630814bd
+
+COCOAPODS: 1.5.3
