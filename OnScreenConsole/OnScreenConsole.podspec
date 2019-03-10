@@ -27,10 +27,10 @@ s.source = { :git => "https://github.com/fischu/onScreenConsole.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "OnScreenConsole/**/*.{swift}"
+s.source_files = "OnScreenConsole/OnScreenConsole/**/*.{swift}"
 
 # 9
-s.resources = "OnScreenConsole/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "OnScreenConsole/OnScreenConsole/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
